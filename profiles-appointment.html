@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+
+        <!-- Mobile -->
+        <meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        <!-- JS -->
+        <script src="js/modernizr-2.8.3.min.js"></script>
+        <script src="js/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="slick/slick.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Merriweather:400,700,900' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Domine:400,700' rel='stylesheet' type='text/css'>2
+        
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/reset.custom.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+        <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+
+    <body>
+        <!-- Body Wrapper -->
+        <div class="body-wrapper">
+            <!-- Main Header -->
+            <header class="main-header">
+                 <div class="wrapper">
+                     <a href="index.html" class="logo-bookadoc float-left"></a>
+                     <div class="main-nav float-right">
+                        <ul>
+                            <li>
+                                <a href="#" class="btn join ">Join our Medical Team</a>                           
+                            </li>
+                            <li>
+                                <a href="#"><i class = "fa fa-bars"><sup>1</sup></i></a> |
+                            </li>
+                            <li>
+                                <a href="#">register</a>
+                            </li>
+                        </ul>
+                     </div>
+                     <div class="clear"></div>
+                 </div>
+            </header>
+
+            <main class="main-content">
+                <section class="section-content experience-better bg-experience-better">
+                    <div class="wrapper42">
+                        <div class="experience-better-content text-center">
+                            <h1>Experience better healthcare today!</h1>
+                            <span>Book your first appointment now.</span>
+                            <div class="form-find text-center">
+                                <form>
+                                    <input type="text" name="Name of Doctor" placeholder="Name of Doctor">
+                                    <select>
+                                        <option value="">City/Province</option>
+                                    </select>
+                                    <select>
+                                        <option value="">Specialty</option>
+                                    </select>
+                                    <input type="submit" value="find" class="btn find">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section-content profile">
+                    <div class="wrapper">
+                        <div class="tab-links nav">
+                            <ul>
+                                <li>
+                                    <a href="#" rel="#appointment" class="active">
+                                        <i class="fa fa-clock-o"></i>Past Appointments and Reviews
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" rel="#settings">
+                                        <i class="fa fa-cog"></i>Settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-container">
+                            <div id="appointment" class="tab-content nav active">
+                                <div>
+                                    <span>2016</span>
+                                </div>
+                                <p>You have no past appointments<a href="#"> Book your first one now.</a></p>
+                            </div>                   
+                            <div id="settings" class="tab-content nav">
+                                <div class="wrapper">
+                                    <!-- Tab Links -->
+                                    <aside class="tab-links side-bar">
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#" rel="#form-profile" class="active">Profile</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" rel="#form-password">Password</a>
+                                            </li>
+
+                                            <li>
+                                                <a href="#" rel="#form-insurance">Insurance</a>
+                                            </li>
+                                        </ul>
+                                    </aside>
+
+                                    <!-- Content for Sidebar -->
+                                    <div id="form-profile" class="form-tab tab-content active">
+                                        <form>
+                                            <div>
+                                                <h3>Profile</h3>
+                                                <div class="form-tab-container">
+                                                    <ul>
+                                                        <li>
+                                                            <label>
+                                                               Name <a href="#"> edit</a>
+                                                            </label>
+                                                        </li>
+                                                        <li>
+                                                            <label>First Name</label>
+                                                            <input type="first-name" name="form-profile" readonly="true">
+                                                        </li>
+                                                        <li>
+                                                            <label>Last Name</label>
+                                                            <input type="last-name" name="form-profile" readonly="true">
+                                                        </li>
+                                                        <li>
+                                                            <label>Email</label>
+                                                            <input type="email" name="form-profile" >
+                                                        </li>
+                                                        <li>
+                                                            <label>Facebook</label>
+                                                            <input type="facebook" placeholder="facebook.com" name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <label>Mobile no.</label>
+                                                            <input type="email" placeholder="(+63)xxxxx" name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <label>Landline<sup>(Optional)</sup></label>
+                                                            <input type="landline" name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <label>Address<sup>(Optional)</sup></label>
+                                                        </li>
+                                                        <li></li>
+                                                        <li>
+                                                            <input type="house-no" placeholder="House no." name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <input type="street" placeholder="Street" name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <select name="form-profile">
+                                                                <option>City</option>
+                                                            </select>
+                                                        </li>
+                                                        <li>
+                                                            <input type="zip-code" placeholder="Zip Code" name="form-profile">
+                                                        </li>
+                                                        <li>
+                                                            <div>
+                                                                <label>Sex</label>
+                                                                <select name="form-profile">
+                                                                    <option>Male</option>
+                                                                    <option>Female</option>
+                                                                </select>
+                                                            </div>
+                                                            <div>
+                                                                <label>Date of Birth</label>
+                                                                <ul>
+                                                                    <li>
+                                                                        <input type="month-1" name="form-profile">
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="day" name="form-profile">
+                                                                    </li>
+                                                                    <li>
+                                                                        <input type="year" name="form-profile">
+                                                                    </li>
+                                                                </ul>
+                                                                <div class="clear"></div>
+                                                            </div>
+                                                        </li>
+
+                                                        <div class="clear"></div>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <input type="submit" name="save" value="Save" class="btn save">
+                                            <input type="submit" name="save" value="Cancel" class="btn cancel">
+                                        </form>
+                                    </div>
+
+                                    <div id="form-password" class="form-tab tab-content">
+                                        <form>
+                                            <div>
+                                                <h3>Password</h3>
+                                                <div class="form-tab-container">
+                                                <ul>
+                                                    <li>
+                                                        <label>Current password:</label>
+                                                        <input type="password" name="form-password">
+                                                    </li>
+                                                    
+                                                    <li>
+                                                        <label>New Password:</label>
+                                                        <input type="password" name="form-password">
+                                                    </li>
+
+                                                    <li>
+                                                        <label>Confirm Password</label>
+                                                        <input type="password" name="form-password">
+                                                    </li>
+                                                </ul>
+
+                                                </div>
+                                            </div>
+                                            <input type="submit" name="save" value="Save" class="btn save">
+                                            <input type="submit" name="save" value="Cancel" class="btn cancel">
+                                        </form>
+                                    
+                                    </div>
+
+                                    <div id="form-insurance" class="form-tab tab-content">
+                                        <form>
+                                            <div>
+                                                <h3>Insurance</h3>
+                                                <div class="form-tab-container">
+                                                    
+                                                </div>
+                                            </div>
+                                            <input type="submit" name="save" value="Save" class="btn save">
+                                            <input type="submit" name="save" value="Cancel" class="btn cancel">
+                                        </form>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                            </div>              
+                        </div>
+                    </div>
+                </section>
+            </main>
+
+
+            <!-- Main Footer -->
+            <footer class="main-footer">
+                <section class="section-content footer text-center">
+                    <div class="wrapper42">
+                        <div class="footer-nav">
+                            <ul>
+                                <li>
+                                    <a href="#"> About</a>
+                                </li>
+
+                                <li>
+                                    <a href="#"> Doctor Directory</a>
+                                </li>
+                                <li>
+                                    <a href="index.html" class="logo-bookadoc"></a>
+                                </li>
+                                
+                                <li>
+                                    <a href="#"> Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <span>Copyright 2016. BOOKADOC. All Rights Reserved.</span>
+                    </div>
+                </section>
+            </footer>
+
+        </div>
+        
+        <!-- JS -->
+
+        <script>
+            $(function() {
+
+              // $(window).scroll(function() {
+              //       if( $(window).scrollTop() > 0)
+              //           $('.main-header').css('background', 'rgba(255,255,255,1)');
+              //       else
+              //           $('.main-header').css('background', 'rgba(255,255,255,0.7)');
+              //   });
+
+
+                $('.tab-links.nav ul li a').on("click", function (e){
+                    e.preventDefault(); 
+                    $('.tab-links.nav ul li a.active').removeClass('active');
+                    $(this).addClass('active');
+                    $('.tab-content.nav.active').removeClass('active');
+                    $(this.rel).addClass('active');
+                });
+
+            });
+        </script>
+    </body>
+</html>
+
+            
