@@ -90,7 +90,7 @@
                     <div class="wrapper">
                         <div class="form-login text-center">
                             <h2>Log In</h2>
-                            <form>
+                            <form action="profiles-appointment.html">
                                 <div class="form-container">
                                     <input type="email" name="email" placeholder="Email">
                                     <input type="password" name="password" placeholder="Password">
@@ -99,7 +99,7 @@
                                         <a href="#"><span>Sign up</span> now</a> 
                                     </div>
                                     <div class="float-right">
-                                        <input type="submit" name="Log In" value="Log In" class="btn login" onclick="window.location='profiles-appointment.html'">
+                                        <input type="submit" name="Log In" value="Log In" class="btn login">
                                     </div>
                                     <div class="clear"></div>
                                 </div>
@@ -163,10 +163,5 @@
         </div>
         
         <!-- JS -->
-        <script>
-            $('.btn login').click(function() {
-                location.href = "profiles-appointment.html";
-            });
-        </script>
     </body>
 </html>
